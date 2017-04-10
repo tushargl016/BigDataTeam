@@ -4,7 +4,7 @@
  2. Reema Dmello (dmello.r@husky.neu.edu)
  3. Abhijit Shinde (shinde.ab@husky.neu.edu)      
 
-#Title - Sentimental Analysis of Facebook post  
+# Title - Sentimental Analysis of Facebook post  
   
 ### Overview  
 The project will provide sentimental analysis of post from Fb. Data will taken from kaggle and results will be presented on web application. Using Sentimental analysis top trending words can be known and the sentiment of people towards a tag or word can be known. This sort of model can be trained to predict what words can be used to have positive or negative response from people and can be applied to many areas like political campaigns or marketing campaigns. 
