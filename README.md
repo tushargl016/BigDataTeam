@@ -4,19 +4,19 @@
  2. Reema Dmello (dmello.r@husky.neu.edu)
  3. Abhijit Shinde (shinde.ab@husky.neu.edu)      
 
-# Title - Sentimental Analysis of Facebook post  
+# Title - Tweets classifier and sentimential analysis  
   
 ### Overview  
-The project will provide sentimental analysis of post from Fb. Data will taken from kaggle and results will be presented on web application. Using Sentimental analysis top trending words can be known and the sentiment of people towards a tag or word can be known. This sort of model can be trained to predict what words can be used to have positive or negative response from people and can be applied to many areas like political campaigns or marketing campaigns. 
+The project will allow us to classify tweets with similar names provide sentimental analysis. Data will be scraped and will be used for sentimential analysis.
 
 ### Plan  
- 1. Data will be taken from kaggle
- 2. Data will be processed and converted to TD-IDF(Document to vector) using R
- 3. processed data will be imported to HDFS  
- 4. Application of Machine learning algorithm and Mahout RDBMS
- 5. Display data as a webpage or Tablaeu
+ 1. Scrape twitter data 
+ 2. Create Naive Bayes Classifier using mahout 
+ 3. Data will be divided, processed and converted to TD-IDF(Document to vector) in mahout itself
+ 4. processed data will be imported to HDFS  
+ 5. Application of Machine learning algorithm and Mahout
  
 ### Future Scope
-For now data will be taken from kaggle so the data is not current data so when done with the above steps web scrapping can be done and data will be fetched on-the-go
+End to end generic application of the project and unix repository will allow us to classify any data with similar names.
  
 
